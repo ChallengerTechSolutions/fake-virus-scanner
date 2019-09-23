@@ -1,4 +1,4 @@
-#version 1.0.0.0
+#version 1.0.0.1
 #made by the challenger 346
 print("What are you scanning for?")
 print("[1] virus")
