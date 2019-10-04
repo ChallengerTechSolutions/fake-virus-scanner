@@ -1,11 +1,7 @@
 #version 1.0.0.1
 #made by the challenger 346
 print("What are you scanning for?")
-print("[1] virus") #an option
-print("[2] maleware")
-print("[3] ransomware")
-print("[4] adware")
-print("[5] spyware")
+print("[1] virus", "[2] malware", "[3] ransomware", "[4] adware", "[5] spyware", "[6] RAT", "[7] trojan", "[8] worm", "[9] vaporware", "[10] scareware")
 option = input()
 if option == '1': #checks to see if the user chose option 1
 		print("What virus are you scanning for?")
@@ -36,4 +32,34 @@ if option == '5':
   spyware = input()
   if spyware == spyware:
    	while 3 > 2:
-     		print("The " + spyware + " ransomeware has been found!")
+     		print("The " + spyware + " spyware has been found!")
+if option == '6':
+  print("What rat are you scanning for?")
+  rat = input()
+  if rat == rat:
+   	while 3 > 2:
+ 				print("The " + rat + " rat has been found!")
+if option == '7':
+  print("What trojan are you scanning for?")
+  trojan = input()
+  if trojan == trojan:
+   	while 3 > 2:
+ 					print("The " + trojan + " trojan has been found!")
+if option == '8':
+  print("What worm are you scanning for?")
+  worm = input()
+  if worm == worm:
+   	while 3 > 2:
+ 					print("The " + worm + " worm has been found!")
+if option == '9':
+  print("What vaporware are you scanning for?")
+  vaporware = input()
+  if vaporware == vaporware:
+   	while 3 > 2:
+ 					print("The " + vaporware + " vaporware has been found!")
+if option == '10':
+  print("What scareware are you scanning for?")
+  scareware = input()
+  if scareware == scareware:
+   	while 3 > 2:
+ 					print("The " + scareware + " scareware has been found!")
