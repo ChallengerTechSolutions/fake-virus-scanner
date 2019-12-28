@@ -1,7 +1,7 @@
 #version 1.0.0.1
 #made by the challenger 346
 print("What are you scanning for?")
-print("[1] virus", "[2] malware", "[3] ransomware", "[4] adware", "[5] spyware", "[6] RAT", "[7] trojan", "[8] worm", "[9] vaporware", "[10] scareware")
+print("[1] virus", "[2] malware", "[3] ransomware", "[4] adware", "[5] spyware", "[6] RAT", "[7] trojan", "[8] worm", "[9] vaporware", "[10] scareware", "[11] scammer")
 option = input()
 if option == '1': #checks to see if the user chose option 1
 		print("What virus are you scanning for?")
@@ -63,3 +63,6 @@ if option == '10':
   if scareware == scareware:
    	while 3 > 2:
  					print("The " + scareware + " scareware has been found!")
+if option == '11':
+  while 3 > 2:
+          print("WARNING A SCAMMER WAS FOUND ON YOUR PC! THEY ARE FROM INDIA!")
